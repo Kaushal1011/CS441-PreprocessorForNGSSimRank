@@ -1,0 +1,18 @@
+21:36:36.797 [main] INFO  - Started Sharding Graph for Node Processing
+21:36:36.955 [main] INFO  - Default output directory: C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank
+21:36:36.956 [main] ERROR - Output directory /Users/drmark/Library/CloudStorage/OneDrive-UniversityofIllinoisChicago/Github/NetGameSim/outputs does not exist or is not a directory, using current directory instead: C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank
+21:36:36.956 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRankC:\Users\kaush\Documents\GitHub\CloudComputingGit\Homework1\NetGameSimNetGraph_20-09-23-15-49-21.ngs
+21:36:36.992 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRankC:\Users\kaush\Documents\GitHub\CloudComputingGit\Homework1\NetGameSimNetGraph_20-09-23-15-49-21.ngs.perturbed
+21:38:46.700 [main] INFO  - Started Sharding Graph for Node Processing
+21:38:46.866 [main] INFO  - Default output directory: C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank
+21:38:46.866 [main] ERROR - Output directory /Users/drmark/Library/CloudStorage/OneDrive-UniversityofIllinoisChicago/Github/NetGameSim/outputs does not exist or is not a directory, using current directory instead: C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank
+21:38:46.867 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs
+21:38:46.899 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs.perturbed
+21:39:22.057 [main] INFO  - Started Sharding Graph for Node Processing
+21:39:22.216 [main] INFO  - Default output directory: C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank
+21:39:22.216 [main] ERROR - Output directory /Users/drmark/Library/CloudStorage/OneDrive-UniversityofIllinoisChicago/Github/NetGameSim/outputs does not exist or is not a directory, using current directory instead: C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank
+21:39:22.217 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank./../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs
+21:39:22.892 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank./../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs.perturbed
+21:39:23.241 [main] INFO  - Hello World!
+21:39:23.241 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank./../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs
+21:39:23.445 [main] INFO  - Loading the NetGraph from C:\Users\kaush\Documents\GitHub\CloudComputingGit\PreprocessorForNGSSimRank./../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs.perturbed
