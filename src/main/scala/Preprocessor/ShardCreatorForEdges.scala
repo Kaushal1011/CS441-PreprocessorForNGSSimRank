@@ -29,9 +29,9 @@ object ShardCreatorForEdges {
 
     logger.info("Hello World!")
 
-    val graph: Option[NetGraph] = NetGraph.load("./../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs")
+    val graph: Option[NetGraph] = NetGraph.load(ngsPath)
 
-    val perturbedGraph: Option[NetGraph] = NetGraph.load("./../Homework1/NetGameSimNetGraph_20-09-23-15-49-21.ngs.perturbed")
+    val perturbedGraph: Option[NetGraph] = NetGraph.load(ngsPathPerturbed)
 
     val edges = graph.get.sm.edges
 
