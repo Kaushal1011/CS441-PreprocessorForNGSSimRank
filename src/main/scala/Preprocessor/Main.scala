@@ -3,6 +3,8 @@ package Preprocessor
 import Preprocessor.ShardCreatorForEdges.createShardedEdgesFileFromGraph
 import Preprocessor.ShardCreatorForNodes.createShardedFileFromGraph
 import Preprocessor.TabReplacer.replaceTabsWithSpaces
+import Preprocessor.NodeExporter.exportNodesData
+import Preprocessor.EdgeExporter.exportEdgesData
 import org.slf4j.{Logger, LoggerFactory}
 
 object Main {
@@ -15,10 +17,14 @@ object Main {
       System.exit(1)
     }
 
-    createShardedFileFromGraph(args(0), args(1), args(2))
-    createShardedEdgesFileFromGraph(args(0), args(1), args(2))
+//    createShardedFileFromGraph(args(0), args(1), args(2))
+//    createShardedEdgesFileFromGraph(args(0), args(1), args(2))
+
+    exportNodesData(args(0), args(1), args(2))
+    exportEdgesData(args(0), args(1), args(2))
 
     // Replace tabs with two spaces in the file specified by the third argument
-    replaceTabsWithSpaces(args(3))
+    // not needed for hw2
+    //    replaceTabsWithSpaces(args(3))
   }
 }

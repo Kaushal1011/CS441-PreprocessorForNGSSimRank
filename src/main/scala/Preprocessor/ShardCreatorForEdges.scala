@@ -15,12 +15,14 @@ object ShardCreatorForEdges {
     val destination_id = dst.id
     val propertiesSource = src.properties
     val propertiesDestination = dst.properties
+    val valuableDataSource = src.valuableData
+    val valuableDataDestination = dst.valuableData
     val children_prop_hash_source = src.childrenObjects.map(x => x.hashCode()).toList
     val children_prop_hash_destination = dst.childrenObjects.map(x => x.hashCode()).toList
 
 
     override def toString: String = {
-      s"($source_id, $destination_id, $weight, $propertiesSource, $propertiesDestination, $children_prop_hash_source, $children_prop_hash_destination)"
+      s"($source_id, $destination_id, $weight, $propertiesSource, $propertiesDestination, $children_prop_hash_source, $children_prop_hash_destination, $valuableDataSource, $valuableDataDestination)"
     }
   }
 

@@ -9,7 +9,7 @@ import java.util.Set
 
 object ShardCreatorForNodes {
 
-  class node_data(val id: Int, val incoming_nodes_len: Int, val outgoing_node_len: Int, val children_props_hash: List[Int], val properties: List[Int], val graphType: String = "original") {
+  class node_data(val id: Int, val incoming_nodes_len: Int, val outgoing_node_len: Int, val children_props_hash: List[Int], val properties: List[Int], val valuableData: Boolean ,val graphType: String = "original") {
 
     def get_id(): Int = id
 
@@ -21,7 +21,9 @@ object ShardCreatorForNodes {
 
     def get_properties(): List[Int] = properties
 
-    override def toString: String = s"($id, $incoming_nodes_len, $outgoing_node_len, $children_props_hash, $properties)"
+    def get_valuableData(): Boolean = valuableData
+
+    override def toString: String = s"($id, $incoming_nodes_len, $outgoing_node_len, $children_props_hash, $properties, $valuableData)"
 
   }
 
@@ -32,9 +34,10 @@ object ShardCreatorForNodes {
     val outgoing_node_len = graph.get.sm.successors(node).size()
     val children_props_hash = node.childrenObjects.map(x => x.hashCode()).toList
     val properties = node.properties
+    val valuableData = node.valuableData
 
 
-    val new_node = new node_data(id,incoming_node_len,outgoing_node_len,children_props_hash,properties, "original")
+    val new_node = new node_data(id,incoming_node_len,outgoing_node_len,children_props_hash,properties, valuableData,"original")
 
     //  println(new_node)
 
